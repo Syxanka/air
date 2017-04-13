@@ -1,0 +1,30 @@
+.main {
+  margin-top: -80px;
+  text-align: center;
+  background-image: url('/src/img/01.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main .main__txt {
+  padding: 200px;
+}
+.main h1 {
+  color: white;
+  font-size: 70px;
+}
+.main p {
+  color: white;
+  font-size: 30px;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.menu__list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+}
