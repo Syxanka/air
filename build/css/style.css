@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
 .main {
   margin-top: -80px;
   text-align: center;
@@ -6,7 +11,7 @@
   background-size: 100%;
 }
 .main .main__txt {
-  padding: 200px;
+  padding: 250px;
 }
 .main h1 {
   color: white;
@@ -16,6 +21,9 @@
   color: white;
   font-size: 30px;
 }
+.menu {
+  font-family: 'Inconsolata', monospace;
+}
 .menu__list {
   display: flex;
   justify-content: space-around;
@@ -24,7 +32,109 @@
 .menu__list a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: gray;
   font-size: 20px;
-  position: fixed;
+}
+.text {
+  text-align: center;
+  margin: 50px;
+}
+.text .text__big {
+  color: #332F2C;
+  font-size: 25px;
+  font-weight: 100;
+}
+.text .text__litle {
+  color: gray;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img .img__txt,
+.img .img__text {
+  list-style: none;
+}
+.img .img__txt-main {
+  display: flex;
+  justify-content: space-between;
+}
+.img .img__text {
+  color: #332F2C;
+  font-weight: bold;
+  font-size: 25px;
+}
+.img .img__txt {
+  font-size: 20px;
+}
+.img .img__space-work {
+  color: gray;
+  text-align: left;
+}
+.category {
+  display: flex;
+  justify-content: space-around;
+}
+.category .category__item {
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: 100px;
+}
+.category .category__text {
+  color: gray;
+}
+.info .info__block {
+  border: 1px solid grey;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+  line-height: 280%;
+  padding: 35px;
+}
+.footer a {
+  text-decoration: none;
+  color: #515769;
+}
+.footer a:hover {
+  color: #E2E2E2;
+}
+.footer li {
+  list-style-type: none;
+}
+.footer .footer__item {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.maps__main {
+  padding: 20px;
+}
+.maps__main .maps__text {
+  color: #515769;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.logo {
+  float: left;
+  padding: 60px;
+}
+.costom {
+  text-align: left;
+  margin-left: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.costom .costom__txt {
+  color: #515769;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.costom .costom__blockquote {
+  font-size: 15px;
+  font-weight: lighter;
+  color: grey;
 }
