@@ -1,6 +1,21 @@
 .pictures {
+    margin: 50px;
+  
+    .pictures__img {
+        display: inline-block;
+        position: relative;
+    }
     
-    .pictures__one {
-        
-     }
+    .pictures__img:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 0; right: 0; bottom: 5px;
+    z-index: 1; 
+    background: rgba(255,255,255,0.7);
+    opacity: 0,1;
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: darkgrey;
+    font-weight: lighter;
+    }
 }
