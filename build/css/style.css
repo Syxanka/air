@@ -98,6 +98,7 @@ body {
 .footer a {
   text-decoration: none;
   color: #515769;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .footer a:hover {
   color: #E2E2E2;
@@ -112,10 +113,14 @@ body {
 .maps__main {
   padding: 20px;
 }
+.maps__main .maps__map {
+  opacity: 0;
+}
 .maps__main .maps__text {
   color: #515769;
   font-size: 16px;
   font-weight: lighter;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .logo {
   float: left;
@@ -124,17 +129,222 @@ body {
 .costom {
   text-align: left;
   margin-left: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 500px;
 }
 .costom .costom__txt {
   color: #515769;
-  font-size: 25px;
-  font-weight: bold;
-  margin: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.costom .costom__text {
+  padding: 10px;
+  line-height: 1,1;
+  font-weight: lighter;
+}
+.costom blockquote {
+  margin-top: -100px;
+  padding-left: 30px;
 }
 .costom .costom__blockquote {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
-  color: grey;
+  color: #a6a7aa;
+}
+.costom .costom__blockquote:before {
+  font-size: 65px;
+  color: #17bed2;
+  content: '″';
+  margin: 10px;
+}
+.costom b {
+  color: dimgrey;
+}
+.kit {
+  background: #F5F5F5;
+  width: 100%;
+}
+.kit .kit__main {
+  display: flex;
+  justify-content: center;
+}
+.kit .kit__block {
+  margin: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 90px 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #515769;
+  text-align: left;
+  font-weight: 900;
+  background: #fff;
+}
+.kit .kit__h2 {
+  font-size: 30px;
+}
+.kit .kit__p {
+  color: #81848f;
+  font-weight: lighter;
+  line-height: 0,3em;
+}
+.kit .kit__item {
+  color: gray;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.kit i {
+  color: #999caa;
+}
+.kit span {
+  font-weight: lighter;
+  font-size: 15px;
+  color: gainsboro;
+}
+.kit .kit__li {
+  list-style-type: none;
+  margin-left: -40px;
+  margin-bottom: 50px;
+}
+.kit li:before {
+  content: " − ";
+  color: #17bed2;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.kit a {
+  text-decoration: none;
+  color: #515769;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-transform: uppercase;
+}
+.kit a:hover {
+  color: whitesmoke;
+}
+.kit .kit__choose {
+  padding: 15px 40px;
+  background: #f3f4f5;
+}
+.kit .kit__choose:hover {
+  background: #17bed2;
+}
+.pictures {
+  margin: 50px;
+}
+.pictures .pictures__img {
+  display: inline-block;
+  position: relative;
+}
+.pictures .pictures__img:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0,1;
+  font-size: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: darkgrey;
+  font-weight: lighter;
+}
+.fix {
+  padding: 5px;
+}
+.fix .fix__one {
+  display: inline-flex;
+  margin-top: 50px;
+}
+.fix .fix__two {
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+.display {
+  background-image: url('/build/img/02__pictures.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+  height: 400px;
+  opacity: 0.9;
+}
+.display h2 {
+  color: white;
+  font-size: 35px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.display .display__text {
+  padding-top: 100px;
+}
+.display p {
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 15px;
+}
+.service {
+  background: #F5F5F5;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+.service .service__main {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+  width: 300px;
+}
+.service .service__text {
+  font-size: 20px;
+  color: #515769;
+  margin-left: 20px;
+}
+.service .service__other {
+  color: #a6a7aa;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.service i {
+  margin-left: 20px;
+  color: black;
+}
+.service .service__item {
+  margin-bottom: 80px;
+  display: inline-block;
+  background: white;
+  text-align: left;
+  padding: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+  width: 300px;
+}
+.service a {
+  text-decoration: none;
+  background: white;
+}
+.service .service__main:hover {
+  background-color: #17bed2;
+}
+.service .service__item:hover {
+  background-color: #17bed2;
+}
+.pic {
+  display: flex;
+  width: 300px;
+}
+.pic .pic__img {
+  margin: 5px;
+}
+.item {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.item h2 {
+  color: #515769;
+  margin-top: 30px;
+  font-weight: 800;
+}
+.item p {
+  color: #a6a7aa;
+  margin-bottom: 40px;
 }
