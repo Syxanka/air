@@ -285,7 +285,7 @@ body {
 .service {
   background: #F5F5F5;
   margin-bottom: -30px;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 .service .service__main {
   margin-top: 80px;
@@ -326,8 +326,22 @@ body {
 .service .service__main:hover {
   background-color: #17bed2;
 }
+.service .service__main:hover .service__other {
+  color: white;
+}
+.service .service__main:hover .service__text,
+.service .service__main:hover i {
+  color: white;
+}
 .service .service__item:hover {
   background-color: #17bed2;
+}
+.service .service__item:hover .service__other {
+  color: white;
+}
+.service .service__item:hover .service__text,
+.service .service__item:hover i {
+  color: white;
 }
 .pic {
   display: flex;
@@ -347,4 +361,52 @@ body {
 .item p {
   color: #a6a7aa;
   margin-bottom: 40px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.row .row__img-img {
+  margin: 10px;
+}
+.row .row__text {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.row span {
+  margin-left: 20px;
+  color: #bfc1c7;
+  text-transform: uppercase;
+}
+.row a {
+  text-decoration: none;
+  color: #515769;
+  font-size: 22px;
+}
+.row a:hover {
+  color: #81848f;
+}
+.row p {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 15px;
+  color: #a6a7aa;
+}
+.row .row__read {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin-left: 10px;
+  float: left;
+  color: #81848f;
+}
+.row .row__read:after {
+  content: "−";
+  font-weight: 900;
+  font-size: 15px;
+  margin: 10px;
+  color: #17bed2;
 }
