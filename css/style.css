@@ -6,7 +6,7 @@ body {
 }
 .main {
   text-align: center;
-  background-image: url('/src/img/01.jpg');
+  background-image: url('/img/01.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -262,7 +262,7 @@ body {
   margin-bottom: 50px;
 }
 .display {
-  background-image: url('/build/img/02__pictures.jpg');
+  background-image: url('/img/02__pictures.jpg');
   background-repeat: no-repeat;
   position: relative;
   background-size: 100%;
@@ -270,7 +270,7 @@ body {
   opacity: 0.9;
 }
 .display h2 {
-  color: white;
+  color: black;
   font-size: 35px;
   font-family: 'Hind Siliguri', sans-serif;
 }
@@ -278,7 +278,7 @@ body {
   padding-top: 100px;
 }
 .display p {
-  color: white;
+  color: black;
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 15px;
 }
