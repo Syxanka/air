@@ -6,7 +6,7 @@ body {
 }
 .main {
   text-align: center;
-  background-image: url('/img/01.jpg');
+  background-image: url(../img/01.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
